@@ -21,6 +21,10 @@ const routes = [
     path: '/type',
     name: 'type',
     component: ()=>import("../views/type/type.vue")
+  },{
+    path: '/yl',
+    name: 'yl',
+    component:()=>import("../views/yl.vue")
   }
 ]
 
